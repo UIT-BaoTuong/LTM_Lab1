@@ -43,6 +43,7 @@
             this.button_Bai1.TabIndex = 0;
             this.button_Bai1.Text = "Bài 1";
             this.button_Bai1.UseVisualStyleBackColor = true;
+            this.button_Bai1.Click += new System.EventHandler(this.button_Bai1_Click);
             // 
             // button_Bai4
             // 
@@ -72,6 +73,7 @@
             this.button_Bai3.TabIndex = 0;
             this.button_Bai3.Text = "Bài 3";
             this.button_Bai3.UseVisualStyleBackColor = true;
+            this.button_Bai3.Click += new System.EventHandler(this.button_Bai3_Click);
             // 
             // button_Bai5
             // 
@@ -81,7 +83,7 @@
             this.button_Bai5.TabIndex = 0;
             this.button_Bai5.Text = "Bài 5";
             this.button_Bai5.UseVisualStyleBackColor = true;
-            this.button_Bai5.Click += new System.EventHandler(this.button_Bai4_Click);
+            this.button_Bai5.Click += new System.EventHandler(this.button_Bai5_Click);
             // 
             // DashBoard
             // 
